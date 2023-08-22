@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+/*  main background image*/
+
+  body {
+    background-image: url(alarm_background.jpg);
+    background-size: cover;
+
+  }
+/*title styling*/
+
+  .title{
+    height: 60px;
+    width: 300px;
+    margin-left: 490px;
+    text-align: center;
+    margin-top: 50px;
+    border: 5px dashed; black;
+    padding: 10px;
+    text-shadow: 5px 5px 4px green;
+    font-family: cursive;
+  }
+/*clock image styling*/
+
+  .clock_image{
+    margin-left: 150px;
+  }
+
+
+  .hide {
+    display: none;
+  }
+
+/*  inner div styling*/
+
+  .main_section {
+    background-color: rgb(212, 175, 55);
+    width: 90%;
+    max-width: 31.25em;
+    padding: 3.12em 5em;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 8em;
+    border-radius: 5em;
+    border: 5px solid black;
+  }
+
+/*  timer styling*/
+
+  .timer {
+    display: inline;
+    text-align: center;
+    font-family: monospace;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+    border: 3px dashed rgb(128, 0, 0);
+    margin-left: 35px;
+    padding: 15px;
+    border-radius: 15px 50px;
+    background-color: orangered;
+  }
+
+  .input_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    gap: 1em;
+  }
+
+  .input_div input {
+    width: 60px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 5px;
+  }
+
+  #set {
+    background-color: rgb(255, 20, 147);
+    border: 2px solid brown;
+    padding: 15px;
+    display: block;
+    margin: 34px 0px 0px 100px;
+    border-radius: 15px;
+    color: black;
+    font-family: cursive;
+    font-size: 20px;
+  }
+  
+/*adding alarm styling*/
+
+  .alarm {
+    display: grid;
+    grid-template-columns: 8fr 2fr 2fr;
+    gap: 1em;
+    margin-top: 1.5em;
+    align-items: center;
+    border-bottom: 1px solid #898f9b;
+    padding-bottom: 0.6em;
+  }
+
+  .alarm input[type="checkbox"] {
+    appearance: none;
+    height: 2em;
+    width: 3.75em;
+    background-color: #e2e2ec;
+    border-radius: 1.25em;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .alarm input[type="checkbox"]:before {
+    position: absolute;
+    content: "";
+    background-color: #757683;
+    height: 1.43em;
+    width: 1.43em;
+    border-radius: 50%;
+    top: 0.25em;
+    left: 0.25em;
+  }
+
+  .alarm input[type="checkbox"]:checked {
+    background-color: #d2e2ff;
+  }
+
+  .alarm input[type="checkbox"]:checked:before {
+    background-color: #377dff;
+    left: 2em;
+  }
+
+/*  delete button styling*/
+
+  .deleteButton {
+    background-color: transparent;
+    font-size: 1.5em;
+    color: greenyellow;
+    cursor: pointer;
+  }
