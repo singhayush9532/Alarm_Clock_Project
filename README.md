@@ -14,6 +14,7 @@ An alarm clock is a common utility used to wake individuals up at specific times
 **JavaScript:** Vanilla JavaScript is used to implement the interactive features of the alarm clock, including setting alarms and triggering notifications.
 
 **Features**
+
 **Digital Clock Display:** The project displays the current time in a digital format, updating in real-time.
 **Alarm Setting:** Users can set alarms by selecting the hour and minute using dropdown menus and clicking a "Set Alarm" button.
 **Alarm Notification:** When the alarm time is reached, a sound notification is played to alert the user.
